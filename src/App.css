@@ -1,0 +1,75 @@
+body{
+   
+    background: linear-gradient(110deg, rgb(65, 154, 65),rgba(13, 211, 229, 0.615));
+    overflow: hidden ;
+    width: 100vw;
+
+}
+
+.nav-container{
+    text-align: center;
+    border: 2px solid greenyellow;
+    font-family: cursive;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.counter-container{
+     border: 2px solid green;
+     border-radius: 10px;
+     margin-bottom: 10px;
+
+}
+
+.number-holder{
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter-box{
+    background: linear-gradient(110deg, rgb(13, 115, 13),rgba(51, 202, 13, 0.894));
+    border: 2px solid rgb(41, 139, 41);
+    width: 24%;
+    text-align: center;
+    border-radius: 20%;
+    
+}
+
+.text-box{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 25vh;
+    
+}
+
+.text-area{
+    width: 100vw;
+    border-radius: 10px;
+    background-color: rgba(52, 107, 52, 0.266);
+    color: black;
+
+    
+}
+.text-area:focus{
+    background-color: rgba(24, 159, 24, 0.51);
+
+}
+
+.button-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-box button{
+     padding: 10px;
+     border-radius: 10px;
+     background-color: rgba(28, 188, 13, 0.606);
+}
+
+.preview{
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    
+}
+
